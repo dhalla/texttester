@@ -16,7 +16,6 @@ $(document).ready(function() {
 
 });
 
-
 txt = {
 
     init: function() {
