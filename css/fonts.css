@@ -1,0 +1,40 @@
+/* Fonts */
+@font-face("CorporateACondensedRgIt", font-files(
+    "/fonts/vendor/corporateACondensedRegularItalic/corporateacon-regita-webfont.ttf"),
+    "/fonts/vendor/corporateACondensedRegularItalic/corporateacon-regita-webfont.eot", normal, normal);
+
+@font-face("CorporateACondensedRegular", font-files(
+    "/fonts/vendor/corporateACondensedRegular/corporateacon-reg-webfont.ttf"),
+    "/fonts/vendor/corporateACondensedRegular/corporateacon-reg-webfont.eot", normal, normal);
+
+@font-face("CorporateARegularItalic",font-files(
+    "/fonts/vendor/corporateARegularItalic/corporatea-regita-webfont.ttf"),
+    "/fonts/vendor/corporateARegularItalic/corporatea-regita-webfont.eot", normal, normal);
+
+@font-face("CorporateABold", font-files(
+    "/fonts/vendor/corporateABold/corporab-webfont.ttf"),
+    "/fonts/vendor/corporateABold/corporab-webfont.eot", normal, normal);
+
+@font-face("CorporateSRegular", font-files(
+    "/fonts/vendor/corporateSRegular/corporsr-webfont.ttf"),
+    "/fonts/vendor/corporateSRegular/corporsr-webfont.eot", normal, normal);
+
+@font-face("CorporateSLightItalic", font-files(
+    "/fonts/vendor/corporateSLightItalic/corposli-webfont.ttf"),
+    "/fonts/vendor/corporateSLightItalic/corposli-webfont.eot", normal, normal);
+
+@font-face("CorporateADemItalic", font-files(
+    "/fonts/vendor/corporateADemiItalic/corpoademitalic-webfont.ttf"),
+    "/fonts/vendor/corporateADemiItalic/corpoademitalic-webfont.eot", normal, normal);
+
+@font-face("CorporateSBoldRegular", font-files(
+    "/fonts/vendor/corporateSBold/corporatesbold-webfont.ttf"),
+    "/fonts/vendor/corporateSBold/corporatesbold-webfont.eot", normal, normal);
+
+@font-face("CorporateSRegularItalic", font-files(
+    "/fonts/vendor/corporateSRegularItalic/corposregital-webfont.ttf"),
+    "/fonts/vendor/corporateSRegularItalic/corposregital-webfont.eot", normal, normal);
+
+@font-face("CorpoADemRegular", font-files(
+    "/fonts/vendor/corporateADemi/corpoadem-webfont.ttf"),
+    "/fonts/vendor/corporateADemi/corpoadem-webfont.eot", normal, normal);

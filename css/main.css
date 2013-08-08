@@ -1,0 +1,31 @@
+p.reload {
+    margin-top: 10px;
+}
+
+
+.preview {
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #b94a48;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.error {
+    background-color: #b94a48;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.nowrap {
+    background-color: white;
+    white-space: nowrap;
+}
+
+/* Preview-Box-/Font-Sizes */
+#low-res .headline-preview { width:300px; height: 70px; font-family: 'CorporateACondensedRegular'; font-size: 24px; }
+#low-res .copy-preview { width:300px; height: 120px; font-family: 'CorporateARegularItalic'; font-size: 16px; }
+
+#hi-res .headline-preview { width:360px; height: 90px; font-family: 'CorporateACondensedRegular'; font-size: 24px; }
+#hi-res .copy-preview { width:360px; height: 160px; font-family: 'CorporateARegularItalic'; font-size: 16px; }
+

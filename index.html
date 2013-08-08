@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Text-Tester</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="/css/fonts.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+        <h1 id="top">Text-Tester</h1>
+        <p class="lead">Passt er oder passt er nicht?</p>
+
+        <p>
+            <span class="glyphicon glyphicon-warning-sign"></span> Bitte den Text bzw. diese Seite in verschiedenen Browsern testen und mit <strong>ausreichend visuellem Puffer</strong> arbeiten. Jeder Browser und jedes Betriebssystem rendert Text unterschiedlich, wodurch z.B. Umbrüche und Laufweiten völlig unterschiedlich ausfallen können. Hierrauf kann technisch kein Einfluss genommen werden.
+        </p>
+
+        <hr>
+
+        <!-- Input-Form -->
+        <form>
+          <fieldset>
+
+            <!-- Headline -->
+            <div class="form-group">
+                <label for="headline-test">Headline</label>
+                <input type="text" class="form-control test" id="headline-test" placeholder="ca. 50-60 Zeichen, keine Umbrüche">
+                <p class="help-block">Zeichenanzahl: <span class="counter">0</span></p>
+            </div>
+
+            <!-- Copy-Text -->
+            <div class="form-group">
+                <label for="copy-test">Text</label>
+                <textarea class="form-control" rows="3" id="copy-test" placeholder="ca. 120-150 Zeichen"></textarea>
+                <p class="help-block">Zeichenanzahl: <span class="counter">0</span></p>
+            </div>
+
+            <button type="submit" class="btn btn-sm btn-success" id="preview">Jetzt testen</button>
+            <p class="reload "><a href="/"><span class="glyphicon glyphicon-refresh"></span> Zurücksetzen/Neu laden</a></p>
+
+          </fieldset>
+        </form>
+
+
+        <hr id="preview-area">
+
+        <!-- Preview -->
+        <div class="row">
+          <div class="col-lg-6">
+
+                <!-- Low-Res Preview -->
+                <div class="panel panel-info" id="low-res">
+                    <div class="panel-heading"><h3 class="panel-title">1024er-Auflösung</h3></div>
+                    <p><strong>Headline</strong></p>
+                    <div class="headline-preview preview"></div>
+
+                    <p><strong>Text</strong></p>
+                    <div class="copy-preview preview"></div>
+                </div>
+
+                <p><a href="#top"><span class="glyphicon glyphicon-arrow-up"></span> nach oben</a></p>
+
+          </div>
+          <div class="col-lg-6">
+
+                <!-- Hi-Res Preview -->
+                <div class="panel panel-info" id="hi-res">
+                    <div class="panel-heading"><h3 class="panel-title">1280er-Auflösung</h3></div>
+                    <p><strong>Headline</strong></p>
+                    <div class="headline-preview preview"></div>
+
+                    <p><strong>Text</strong></p>
+                    <div class="copy-preview preview"></div>
+                </div>
+
+                <p><a href="#top"><span class="glyphicon glyphicon-arrow-up"></span> nach oben</a></p>
+
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Kontaktadresse -->
+        <address>
+            <p class="lead">Rückfragen richten Sie bitte an:</p>
+            <p>
+            <strong>Daniel Miltner</strong><br>
+            ACCOUNT MANAGER<br>
+            Scholz &amp; Volkmer GmbH<br>
+            Schwalbacher Strasse 72 . D-65183 Wiesbaden<br>
+            Telefon +49 (611) 180 99-853<br>
+            Telefax +49 (611) 180 99-77<br>
+            d.miltner@s-v.de<br>
+            </p>
+
+        </address>
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

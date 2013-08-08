@@ -1,0 +1,26 @@
+___Kopie*
+.buildpath
+.project
+.settings
+nbproject
+.svn
+.*~
+*~
+._*
+.DS_Store
+.sass-cache
+.sass-cache/*
+
+# Server-Logs
+/logs
+/logs/*
+
+# Fonts
+/fonts/vendor
+/fonts/vendor/*
+
+# Compiled CSS
+/assets/css/*
+/assets/css
+
+/protected/*
