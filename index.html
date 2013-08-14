@@ -9,12 +9,11 @@
     <title>Text-Tester</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <link href="/css/fonts.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
   </head>
 
@@ -38,19 +37,19 @@
             <!-- Headline -->
             <div class="form-group">
                 <label for="headline-test">Headline</label>
-                <input type="text" class="form-control test" id="headline-test" placeholder="ca. 50-60 Zeichen, keine Umbrüche">
+                <input type="text" class="form-control test" id="headline-test" placeholder="max. 2 Zeilen / 60 – 70 Zeichen">
                 <p class="help-block">Zeichenanzahl: <span class="counter">0</span></p>
             </div>
 
             <!-- Copy-Text -->
             <div class="form-group">
                 <label for="copy-test">Text</label>
-                <textarea class="form-control" rows="3" id="copy-test" placeholder="ca. 120-150 Zeichen"></textarea>
+                <textarea class="form-control" rows="3" id="copy-test" placeholder="max. 110 – 130 Zeichen"></textarea>
                 <p class="help-block">Zeichenanzahl: <span class="counter">0</span></p>
             </div>
 
             <button type="submit" class="btn btn-sm btn-success" id="preview">Jetzt testen</button>
-            <p class="reload "><a href="/"><span class="glyphicon glyphicon-refresh"></span> Zurücksetzen/Neu laden</a></p>
+            <p class="reload "><a href=""><span class="glyphicon glyphicon-refresh"></span> Zurücksetzen/Neu laden</a></p>
 
           </fieldset>
         </form>
@@ -59,44 +58,67 @@
         <hr id="preview-area">
 
         <!-- Preview -->
-        <div class="row">
+        <h3>Auflösung 1280px</h3>
+        <div class="row hi-res ">
           <div class="col-lg-6">
-
                 <!-- Low-Res Preview -->
-                <div class="panel panel-info" id="low-res">
-                    <div class="panel-heading"><h3 class="panel-title">1024er-Auflösung</h3></div>
-                    <p><strong>Headline</strong></p>
+                <div class="panel panel-info topic-lead">
+                    <div class="panel-heading"><h3 class="panel-title">Leitartikel</h3></div>
+                    <p><strong>Headline, max. 2 Zeilen</strong></p>
                     <div class="headline-preview preview"></div>
 
-                    <p><strong>Text</strong></p>
+                    <p><strong>Text, max. 3 Zeilen</strong></p>
                     <div class="copy-preview preview"></div>
                 </div>
-
           </div>
           <div class="col-lg-6">
-
                 <!-- Hi-Res Preview -->
-                <div class="panel panel-info" id="hi-res">
-                    <div class="panel-heading"><h3 class="panel-title">1280er-Auflösung</h3></div>
-                    <p><strong>Headline</strong></p>
+                <div class="panel panel-info topic-other">
+                    <div class="panel-heading"><h3 class="panel-title">Weitere Themen/ TV-Band</h3></div>
+                    <p><strong>Headline, max. 2 Zeilen</strong></p>
                     <div class="headline-preview preview"></div>
 
-                    <p><strong>Text</strong></p>
+                    <p><strong>Text, max. 4 Zeilen</strong></p>
                     <div class="copy-preview preview"></div>
                 </div>
-
           </div>
         </div>
 
         <hr>
+
+        <h3>Auflösung 1024px</h3>
+        <div class="row low-res ">
+          <div class="col-lg-6">
+                <!-- Low-Res Preview -->
+                <div class="panel panel-info topic-lead">
+                    <div class="panel-heading"><h3 class="panel-title">Leitartikel</h3></div>
+                    <p><strong>Headline, max. 2 Zeilen</strong></p>
+                    <div class="headline-preview preview"></div>
+
+                    <p><strong>Text, max. 3 Zeilen</strong></p>
+                    <div class="copy-preview preview"></div>
+                </div>
+          </div>
+          <div class="col-lg-6">
+                <!-- Hi-Res Preview -->
+                <div class="panel panel-info topic-other">
+                    <div class="panel-heading"><h3 class="panel-title">Weitere Themen/ TV-Band</h3></div>
+                    <p><strong>Headline, max. 2 Zeilen</strong></p>
+                    <div class="headline-preview preview"></div>
+
+                    <p><strong>Text, max. 4 Zeilen</strong></p>
+                    <div class="copy-preview preview"></div>
+                </div>
+          </div>
+        </div>
 
         <p><a href="#top"><span class="glyphicon glyphicon-arrow-up"></span> nach oben</a></p>
 
     </div>
 
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 </html>

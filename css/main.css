@@ -1,3 +1,16 @@
+@font-face{
+    font-family: "CorporateSRegular";
+    src:
+        url("../fonts/vendor/corporateSRegular/corporsr-webfont.ttf"),
+        url("../fonts/vendor/corporateSRegular/corporsr-webfont.eot");
+}
+@font-face{
+    font-family: "CorporateACondensedRegular";
+    src:
+        url("../fonts/vendor/corporateACondensedRegular/corporateacon-reg-webfont.ttf"),
+        url("../fonts/vendor/corporateACondensedRegular/corporateacon-reg-webfont.eot");
+    };
+
 p.reload {
     margin-top: 10px;
 }
@@ -6,13 +19,17 @@ p.reload {
     border-bottom: 1px solid #b94a48;
     margin-bottom: 30px;
     overflow: hidden;
-    background: url("/images/ruler-bg.png") left top no-repeat;
+    background: url("../images/ruler-bg.png") left top no-repeat;
 }
+
+.headline-preview { font-family: 'CorporateACondensedRegular'; }
+.copy-preview { font-family: 'CorporateSRegular'; }
 
 .error {
     background-color: #b94a48;
     color: white;
     transition: background-color 0.5s;
+    background-image: none;
 }
 
 .nowrap {
@@ -20,10 +37,17 @@ p.reload {
     white-space: nowrap;
 }
 
-/* Preview-Box-/Font-Sizes */
-#low-res .headline-preview { width:300px; height: 70px; font-family: 'CorporateACondensedRegular'; font-size: 24px; }
-#low-res .copy-preview { width:300px; height: 120px; font-family: 'CorporateARegularItalic'; font-size: 16px; }
+.low-res .topic-lead .headline-preview { font-size: 24px; width: 300px; height: 60px; line-height: 30px; }
+.low-res .topic-lead .copy-preview { font-size: 14px; width: 300px; height: 70px; line-height: 22px; }
 
-#hi-res .headline-preview { width:360px; height: 90px; font-family: 'CorporateACondensedRegular'; font-size: 24px; }
-#hi-res .copy-preview { width:360px; height: 160px; font-family: 'CorporateARegularItalic'; font-size: 16px; }
+.low-res .topic-other .headline-preview { font-size: 18px; width: 220px; height: 50px; line-height: 20px; }
+.low-res .topic-other .copy-preview { font-size: 14px; width: 220px; height: 90px; line-height: 22px; }
+
+.hi-res .topic-lead .headline-preview { font-size: 24px; width: 380px; height: 60px; line-height: 30px;}
+.hi-res .topic-lead .copy-preview { font-size: 14px; width: 380px; height: 70px; line-height: 22px; }
+
+.hi-res .topic-other .headline-preview { font-size: 18px; width: 280px; height: 55px; line-height: 20px; }
+.hi-res .topic-other .copy-preview { font-size: 14px; width: 280px; height: 90px; line-height: 22px; }
+
+
 

@@ -4,13 +4,13 @@ $(document).ready(function() {
         event.preventDefault();
         txt.init();
         tools.nowrap('.headline-preview, .copy-preview', $('body'));
-        txt.indicateOverflow('.preview');
+        // txt.indicateOverflow('.preview');
     });
 
     $("#headline-test, #copy-test").keyup(function(event) {
         txt.init();
         tools.nowrap('.headline-preview, .copy-preview', $('body'));
-        txt.indicateOverflow('.preview');
+        // txt.indicateOverflow('.preview');
         tools.updateCharCount($(this));
     });
 
